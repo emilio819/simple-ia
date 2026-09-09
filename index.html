@@ -1,0 +1,26 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+  <head>
+    <title>simple ia</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body bgcolor="#FFFFFF" text="#000000">
+    <font face="sans-serif" size="2">
+      <h2>Chat IA (BB 8520)</h2>
+      
+      <!-- Contenedor del historial -->
+      <div id="chat">
+        <p><b>IA:</b> Hola, ¿en qué te puedo ayudar hoy?</p>
+      </div>
+
+      <hr size="1" color="#ccc">
+
+      <!-- Formulario HTTP clásico para no requerir JavaScript en la BlackBerry -->
+      <form action="/chat" method="POST">
+        <label for="prompt"><b>Mensaje:</b></label><br>
+        <input type="text" id="prompt" name="prompt" size="18" required><br><br>
+        <input type="submit" value="Enviar">
+      </form>
+    </font>
+  </body>
+</html>
