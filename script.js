@@ -5,7 +5,7 @@ const Groq = require('groq-sdk');
 const app = express();
 
 // Configura tu clave de API (puedes usar .env o pegarla aquí directamente)
-const GROQ_API_KEY = process.env.GROQ_API_KEY || "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";
+const GROQ_API_KEY = process.env.GROQ_API_KEY || "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";
 
 const groq = new Groq({ apiKey: GROQ_API_KEY });
 
